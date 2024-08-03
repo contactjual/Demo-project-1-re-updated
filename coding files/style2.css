@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+/*header*/
+
+.header .container {
+    background: url(../images/banner/banner3.png) no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    position: relative;
+}
+.header .container .text {
+    color: white;
+    direction: rtl;
+    position: absolute;
+    margin: 10% 5% 30% 54%;
+}
+.header .container .text h1 {
+    font-size: 4.7vw;
+    margin-bottom: 0;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 5.3vw;
+}
+.container p {
+    font-size: 1.2vw;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(203, 223, 241);
+    font-style: normal;
+}
+.common-button {
+    padding: 4% 8%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    color: blue;
+}
+
+/*middle*/
+
+.middle .container ul {
+    margin-left: -38px;
+}
+.middle .container li {
+    list-style: none;
+    margin-top: 5px;
+}
+.middle .container li img {
+    width: 1.2vw;
+    margin-right: 8px;
+    
+}
+.middle .container h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 3vw;
+}
+.middle .container p {
+    font-family: "Nunito", sans-serif;
+}
